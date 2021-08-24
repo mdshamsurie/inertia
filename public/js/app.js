@@ -1858,10 +1858,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Home.js":
-/*!************************************!*\
-  !*** ./resources/js/Pages/Home.js ***!
-  \************************************/
+/***/ "./resources/js/Pages/Home.jsx":
+/*!*************************************!*\
+  !*** ./resources/js/Pages/Home.jsx ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1873,9 +1873,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
-function Home() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-    children: "Laboris minim id anim dolore sit cupidatat pariatur magna nisi ut magna deserunt. Eu laborum nostrud nostrud excepteur esse consequat adipisicing voluptate irure consequat adipisicing nulla officia do. Lorem reprehenderit culpa adipisicing amet culpa ea velit in sunt aliquip laborum cillum. Ut excepteur est cillum voluptate duis enim consectetur labore elit mollit est Lorem do. Ex sit do voluptate id quis nisi labore veniam pariatur ut non aute qui dolore.giit"
+function Home(props) {
+  var username = props.username;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+    children: ["hello myname is ", username]
   });
 }
 
@@ -37305,8 +37306,8 @@ module.exports = function getSideChannel() {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var map = {
-	"./Home": "./resources/js/Pages/Home.js",
-	"./Home.js": "./resources/js/Pages/Home.js"
+	"./Home": "./resources/js/Pages/Home.jsx",
+	"./Home.jsx": "./resources/js/Pages/Home.jsx"
 };
 
 
